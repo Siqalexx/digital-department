@@ -1,4 +1,5 @@
 import logo from '../images/LOGO.svg';
+import burger from '../images/burger.svg';
 function Header() {
 	return (
 		<header className='header'>
@@ -11,6 +12,7 @@ function Header() {
 					<li className='header_link'>контакты</li>
 				</ul>
 			</nav>
+			<img src={burger} alt='Меню' className='header__burger'></img>
 		</header>
 	);
 }

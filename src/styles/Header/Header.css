@@ -8,6 +8,7 @@
 	position: absolute;
 	top: -10px;
 	width: 100%;
+	max-width: 1920px;
 	box-sizing: border-box;
 }
 
@@ -35,4 +36,22 @@
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 143%;
+}
+.header__burger {
+	display: none;
+	padding-right: 50px;
+}
+@media screen and (max-width: 767px) {
+	.header {
+		max-width: 767px;
+	}
+	.header__logo {
+		height: 25px;
+	}
+	.header_links {
+		display: none;
+	}
+	.header__burger {
+		display: block;
+	}
 }

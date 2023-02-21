@@ -51,3 +51,28 @@
 	background-repeat: no-repeat;
 	height: 300px;
 }
+
+@media screen and (max-width: 767px) {
+	.preview {
+		margin-top: 30px;
+		width: 100%;
+		max-width: 767px;
+		height: 255px;
+		background-image: url('../../images/preview-mobile.png');
+	}
+	.preview__figure {
+		height: 155px;
+		top: 150px;
+		left: 0;
+		background-image: url('../../images/figure-mobile.png');
+	}
+	.preview__title {
+		display: none;
+	}
+	.preview__subtitle {
+		display: none;
+	}
+	.preview__bits {
+		display: none;
+	}
+}

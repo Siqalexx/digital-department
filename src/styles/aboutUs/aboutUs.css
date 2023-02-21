@@ -190,3 +190,18 @@
 	width: 48px;
 	height: 48px;
 }
+@media screen and (max-width: 767px) {
+	.aboutUs {
+		display: none;
+	}
+	.aboutUs__cell-title {
+		font-size: 20px;
+	}
+	.aboutUs__cell-description {
+		font-size: 14px;
+	}
+	.aboutUs__ellips_big {
+		max-width: 163px;
+		height: 163px;
+	}
+}

@@ -229,3 +229,8 @@
 	color: #5e4dcd;
 	margin: 129px 0 40px 193px;
 }
+@media screen and (max-width: 767px) {
+	.news {
+		display: none;
+	}
+}
