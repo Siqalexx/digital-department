@@ -4,13 +4,7 @@ function AboutUs() {
 	return (
 		<section className='aboutUs'>
 			<div className='aboutUs__video-container'>
-				<video
-					width='713'
-					height='386'
-					poster={photo}
-					controls
-					className='aboutUs__video'
-				>
+				<video poster={photo} controls className='aboutUs__video'>
 					<source src={video} type='video/mp4'></source>
 					Тег video не поддерживается вашим браузером.
 				</video>

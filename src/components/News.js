@@ -1,4 +1,10 @@
+import { useState } from 'react';
+
 function News() {
+	const [openNew, setOpenNew] = useState(false);
+	function clickNew() {
+		setOpenNew(!openNew);
+	}
 	return (
 		<section className='news'>
 			<h3 className='news__title'>новости</h3>
@@ -37,7 +43,7 @@ function News() {
 					</div>
 					<div className='new-medium__photo'></div>
 				</div>
-				<div className='new-medium_second'>
+				<div className={`new-medium_second `}>
 					<div className='new-medium__info_second'>
 						<h4 className='new-medium__title_second'>новости</h4>
 						<p className='new-medium__description_second'>
@@ -48,7 +54,32 @@ function News() {
 					</div>
 					<div className='new-medium__photo_second'></div>
 				</div>
+				<div className='new-big2'>
+					<div className='new-big__info'>
+						<h4 className='new-big__title'>новости</h4>
+						<p className='new-big__description'>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+							commodo ligula eget dolor. Aenean massa. .
+						</p>
+						<button className='new-big__button'>Подробнее</button>
+					</div>
+					<div className='new-big__photo'></div>
+				</div>
+				<div className={`new-big3 ${openNew && 'new-medium_second_open'}`}>
+					<div className='new-big__info'>
+						<h4 className='new-big__title'>новости</h4>
+						<p className='new-big__description'>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+							commodo ligula eget dolor. Aenean massa. .
+						</p>
+						<button className='new-big__button'>Подробнее</button>
+					</div>
+					<div className='new-big__photo'></div>
+				</div>
 			</div>
+			<button className='news__open' onClick={clickNew}>
+				{openNew ? 'Развернуть ' : 'Свернуть '} &#10531;
+			</button>
 		</section>
 	);
 }

@@ -1,8 +1,9 @@
 .preview {
 	background-image: url('../../images/main.png');
 	background-repeat: no-repeat;
-
+	background-size: 100%;
 	width: 100%;
+
 	height: 920px;
 	display: flex;
 	margin-top: 10px;
@@ -13,6 +14,8 @@
 }
 .preview__figure {
 	background-image: url('../../images/main-figure.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
 	width: 100%;
 	height: 450px;
 	position: absolute;
@@ -62,7 +65,7 @@
 	}
 	.preview__figure {
 		height: 155px;
-		top: 150px;
+		top: 180px;
 		left: 0;
 		background-image: url('../../images/figure-mobile.png');
 	}

@@ -1,6 +1,9 @@
 .app {
+	width: 100%;
 	max-width: 1920px;
 	margin: auto;
 	position: relative;
 	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
 }
