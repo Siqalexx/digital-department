@@ -78,7 +78,7 @@ function News() {
 				</div>
 			</div>
 			<button className='news__open' onClick={clickNew}>
-				{openNew ? 'Развернуть ' : 'Свернуть '} &#10531;
+				{openNew ? 'Свернуть ' : 'Развернуть '} &#10531;
 			</button>
 		</section>
 	);
