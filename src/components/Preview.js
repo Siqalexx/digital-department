@@ -7,9 +7,12 @@ function Preview() {
 			<div className='preview__info'>
 				<h1 className='preview__title'>проекты Цифровой кафедры</h1>
 				<p className='preview__subtitle'>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-					commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-					et magnis dis parturient montes, nascetur ridiculus mus.{' '}
+					“Цифровая кафедра” КФУ имени В.И. Вернадского создает цифровые решения
+					вместе с индустриальными партнерами для решения задач развития
+					экономики Республики Крым. Молодость, инициативность, инновации,
+					цифровые технологии и проектный решения под потребности общества и
+					бизнеса - вот залог успеха реализации цифровых решений КФУ имени В.И.
+					Вернадского
 				</p>
 			</div>
 		</section>

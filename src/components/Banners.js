@@ -1,6 +1,6 @@
 function Banners() {
 	return (
-		<section className='banners'>
+		<section style={{ display: 'none' }} className='banners'>
 			<h2 className='banners__title'>Место для баннеров</h2>
 		</section>
 	);

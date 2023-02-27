@@ -16,7 +16,12 @@ function News() {
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 							commodo ligula eget dolor. Aenean massa. .
 						</p>
-						<button className='new-big__button'>Подробнее</button>
+						<button
+							onClick={() => alert('В разработке')}
+							className='new-big__button'
+						>
+							Подробнее
+						</button>
 					</div>
 					<div className='new-big__photo'></div>
 				</div>
@@ -27,7 +32,12 @@ function News() {
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 							commodo ligula eget dolor. Aenean massa.{' '}
 						</p>
-						<button className='new-small__button'>Подробнее</button>
+						<button
+							onClick={() => alert('В разработке')}
+							className='new-small__button'
+						>
+							Подробнее
+						</button>
 					</div>
 					<div className='new-small__photo'></div>
 				</div>
@@ -39,7 +49,12 @@ function News() {
 							commodo ligula eget dolor. Aenean massa. Cum sociis natoque
 							penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 						</p>
-						<button className='new-medium__button'>Подробнее</button>
+						<button
+							onClick={() => alert('В разработке')}
+							className='new-medium__button'
+						>
+							Подробнее
+						</button>
 					</div>
 					<div className='new-medium__photo'></div>
 				</div>
@@ -50,7 +65,12 @@ function News() {
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 							commodo ligula eget dolor. Aenean massa.{' '}
 						</p>
-						<button className='new-medium__button_second'>Подробнее</button>
+						<button
+							onClick={() => alert('В разработке')}
+							className='new-medium__button_second'
+						>
+							Подробнее
+						</button>
 					</div>
 					<div className='new-medium__photo_second'></div>
 				</div>
@@ -61,7 +81,12 @@ function News() {
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 							commodo ligula eget dolor. Aenean massa. .
 						</p>
-						<button className='new-big__button'>Подробнее</button>
+						<button
+							onClick={() => alert('В разработке')}
+							className='new-big__button'
+						>
+							Подробнее
+						</button>
 					</div>
 					<div className='new-big__photo'></div>
 				</div>
@@ -72,7 +97,12 @@ function News() {
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 							commodo ligula eget dolor. Aenean massa. .
 						</p>
-						<button className='new-big__button'>Подробнее</button>
+						<button
+							onClick={() => alert('В разработке')}
+							className='new-big__button'
+						>
+							Подробнее
+						</button>
 					</div>
 					<div className='new-big__photo'></div>
 				</div>
