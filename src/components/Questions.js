@@ -23,19 +23,20 @@ function QuestionItem({ heading, children }) {
 function Questions() {
 	const questionList = [
 		{
-			heading: 'Lorem ipsum dolor sit amet?',
+			heading: 'Как записаться?',
 			content:
-				'Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?',
+				'Запись на программы цифровой кафедры ведется через ЭОС Университета (личный кабинет) и студенческий офис.',
 		},
 		{
-			heading: 'Lorem ipsum dolor sit amet?',
-			content:
-				'Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?',
+			heading: 'Какую дополнительную квалификацию я получу?',
+			content: `По программам Web-разработка - “Web-разработка (JavaScript, HTML, CSS)“
+				 Технологии ИИ и анализа данных - “Специалист по искусственному интеллекту“
+				 Проектирование в CAD - системах - “Создание, использование и сопровождение информационной модели ОКС“`,
 		},
 		{
-			heading: 'Lorem ipsum dolor sit amet?',
+			heading: 'Когда я получу диплом о цифровой переподготовке?',
 			content:
-				'Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?Lorem ipsum dolor sit amet?',
+				'Диплом о профессиональной переподготовке выдается вместе с дипломом о высшем образовании (бакалавра или специалиста) после окончания освоения основной образовательной программы',
 		},
 	];
 

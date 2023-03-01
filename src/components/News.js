@@ -13,8 +13,9 @@ function News() {
 					<div className='new-big__info'>
 						<h4 className='new-big__title'>новости</h4>
 						<p className='new-big__description'>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-							commodo ligula eget dolor. Aenean massa. .
+							Цифровая кафедра приступила к подготовке НОВЫХ программ. В числе
+							перспективных направлений развитие центров компетенций Института
+							медиакоммуникаций, медиатехнологий и др.
 						</p>
 						<button
 							onClick={() => alert('В разработке')}
@@ -29,8 +30,8 @@ function News() {
 					<div className='new-small__info'>
 						<h2 className='new-small__title'>новости</h2>
 						<p className='new-small__description'>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-							commodo ligula eget dolor. Aenean massa.{' '}
+							“Проектирование в CAD-системах”. Проработка информационных моделей
+							загородных коттеджей.
 						</p>
 						<button
 							onClick={() => alert('В разработке')}
@@ -45,9 +46,11 @@ function News() {
 					<div className='new-medium__info'>
 						<h4 className='new-medium__title'>новости</h4>
 						<p className='new-medium__description'>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-							commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-							penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+							Под руководством преподавателей Университета и
+							специалистов-практиков в рамках программы “Технологии
+							искусственного интеллекта“ проектные группы студентов
+							разрабатывают проект “ИНТЕЛЛЕКТУАЛЬНАЯ СИСТЕМА ПОИСКА
+							ДОСТОПРИМЕЧАТЕЛЬНОСТЕЙ КРЫМА”.
 						</p>
 						<button
 							onClick={() => alert('В разработке')}
@@ -62,8 +65,9 @@ function News() {
 					<div className='new-medium__info_second'>
 						<h4 className='new-medium__title_second'>новости</h4>
 						<p className='new-medium__description_second'>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-							commodo ligula eget dolor. Aenean massa.{' '}
+							Амбициозный проект “Гео-карта Крыма” реализуется в рамках
+							программы “Web-разработка”. В проекте принимают участие студенты
+							многих институтов.
 						</p>
 						<button
 							onClick={() => alert('В разработке')}
@@ -78,8 +82,11 @@ function News() {
 					<div className='new-big__info'>
 						<h4 className='new-big__title'>новости</h4>
 						<p className='new-big__description'>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-							commodo ligula eget dolor. Aenean massa. .
+							Под руководством преподавателей Университета и
+							специалистов-практиков в рамках программы “Технологии
+							искусственного интеллекта“ проектные группы студентов
+							разрабатывают проект “ИНТЕЛЛЕКТУАЛЬНАЯ СИСТЕМА ПОИСКА
+							ДОСТОПРИМЕЧАТЕЛЬНОСТЕЙ КРЫМА”.
 						</p>
 						<button
 							onClick={() => alert('В разработке')}
@@ -94,8 +101,11 @@ function News() {
 					<div className='new-big__info'>
 						<h4 className='new-big__title'>новости</h4>
 						<p className='new-big__description'>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-							commodo ligula eget dolor. Aenean massa. .
+							Амбициозный проект “Гео-карта Крыма” реализуется в рамках
+							программы “Web-разработка”. В проекте принимают участие студенты
+							многих институтов, в том числе Физико-технического института,
+							Института медиатехнологий, медиакоммуникаций и дизайна,
+							Таврической академии..
 						</p>
 						<button
 							onClick={() => alert('В разработке')}

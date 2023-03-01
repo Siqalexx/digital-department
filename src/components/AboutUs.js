@@ -5,7 +5,10 @@ function AboutUs() {
 		<section id='aboutUs' className='aboutUs'>
 			<div className='aboutUs__video-container'>
 				<video poster={photo} controls className='aboutUs__video'>
-					<source src={video} type='video/mp4'></source>
+					<source
+						src={'https://www.youtube.com/watch?v=WCgCQTyhjYE'}
+						type='video/mp4'
+					></source>
 					Тег video не поддерживается вашим браузером.
 				</video>
 			</div>

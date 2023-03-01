@@ -13,21 +13,21 @@
 .feedback::before {
 	content: '';
 	position: absolute;
-	background-image: url('../../images/bit_preview.png');
+	background-image: url('../../images/bit-preview.png');
 	height: 100%;
-	width: 421px;
-	left: -100px;
+	width: 700px;
+	left: -334px;
 	top: 10%;
 }
 
 .feedback::after {
 	content: '';
 	position: absolute;
-	background-image: url('../../images/bit_preview.png');
+	background-image: url('../../images/bit-preview.png');
 	height: 100%;
-	width: 421px;
-	right: -100px;
-	top: 10%;
+	width: 700px;
+	right: -330px;
+	top: 25%;
 }
 
 .feedback__heading_sm {

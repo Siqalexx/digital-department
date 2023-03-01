@@ -14,11 +14,15 @@
 
 .header__logo {
 	display: block;
-	height: 27px;
 	margin-right: auto;
+	height: 64px;
+	width: 155px;
+	object-fit: cover;
 }
-
 .header__navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .header_links {
@@ -52,9 +56,11 @@
 @media screen and (max-width: 767px) {
 	.header {
 		max-width: 767px;
+		padding-left: 24px;
 	}
 	.header__logo {
-		height: 25px;
+		height: 47px;
+		width: 113px;
 	}
 	.header_links {
 		display: none;

@@ -8,9 +8,11 @@
 
 .footer__logo {
 	display: block;
-	height: 30px;
+	height: 100px;
 	padding: 97px 0 0 92px;
+	width: 244px;
 	margin-right: auto;
+	object-fit: cover;
 }
 
 .footer-info {
@@ -88,7 +90,8 @@
 	}
 	.footer__logo {
 		display: block;
-		height: 22px;
+		height: 63px;
+		width: 155px;
 		padding: 42px 0 0 48px;
 		margin-right: auto;
 	}

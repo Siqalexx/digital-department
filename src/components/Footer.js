@@ -5,8 +5,10 @@ function Footer() {
 			<img src={logo} alt='Логотип' className='footer__logo'></img>
 			<div className='footer-info'>
 				<h2 className='footer-info__title'>КФУ...</h2>
-				<p className='footer-info__subtitle'>Ул. Крылова, 164</p>
-				<p className='footer-info__subtitle'>+7 (978) 000 00 00</p>
+				<p className='footer-info__subtitle'>
+					пр. Академика Вернадского, д. 4, каб. 334А
+				</p>
+				<p className='footer-info__subtitle'>8 (3652) 54 57 34</p>
 				<p className='footer-info__subtitle'>
 					Режим работы:
 					<br /> Пн-пт: 10:00- 21:00
@@ -23,8 +25,7 @@ function Footer() {
 				<h3 className='footer-contacts__text'>
 					Контакты:
 					<br />
-					<br /> +7 (978) 000 00 00 <br />
-					+7 (978) 000 00 00
+					<br /> digitalkaf@cfuv.ru <br />8 (3652) 54 57 34
 				</h3>
 			</div>
 		</footer>
