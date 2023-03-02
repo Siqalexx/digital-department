@@ -195,6 +195,87 @@
 	width: 48px;
 	height: 48px;
 }
+@media screen and (max-width: 1699px) {
+	.aboutUs__cell-title {
+		padding-left: 30px;
+	}
+	.aboutUs__video-container {
+		max-width: 600px;
+		height: 370px;
+	}
+	.aboutUs__video {
+		width: 510px;
+		height: 285px;
+	}
+	.aboutUs__ellips_small {
+		left: 615px;
+		top: 230px;
+	}
+	.aboutUs__title {
+		font-size: 42px;
+		line-height: 90%;
+	}
+	.aboutUs__description {
+		font-size: 15px;
+	}
+	.aboutUs__info {
+		margin-left: 80px;
+		padding-bottom: 180px;
+		max-width: 500px;
+	}
+	.aboutUs__cell-iconbg {
+		width: 120px;
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.aboutUs__cells {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1200px;
+		order: 2;
+		flex-direction: column;
+		padding: 0;
+		justify-content: center;
+		align-items: center;
+	}
+	.aboutUs__cell-title {
+		padding-left: 0;
+	}
+	.aboutUs__cell {
+		max-width: 520px;
+		margin: 0 0 50px 0;
+	}
+
+	.aboutUs__ellips_big_cells {
+		max-width: 284px;
+		height: 284px;
+		top: 250px;
+		left: 700px;
+	}
+	.aboutUs__ellips_small_cells {
+		max-width: 188px;
+		height: 188px;
+		top: 890px;
+		left: 250px;
+	}
+	.aboutUs__video-container {
+		margin-left: 100px;
+	}
+	.aboutUs__info {
+		margin-left: 40px;
+		padding-bottom: 180px;
+		max-width: 500px;
+	}
+	.aboutUs {
+		width: 100%;
+	}
+	.aboutUs__ellips_small {
+		left: 570px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.aboutUs {
 		margin-top: 10px;
@@ -206,33 +287,33 @@
 	.aboutUs__info {
 		order: 0;
 		padding: 0;
+		padding-bottom: 51px;
 	}
 	.aboutUs__title {
 		font-size: 20px;
 	}
 	.aboutUs__description {
 		font-size: 14px;
-		max-height: 240px;
 		overflow: hidden;
 		margin-bottom: 25px;
 	}
 	.aboutUs__ellips_big {
 		max-width: 163px;
 		height: 163px;
-		top: 425px;
+		top: 522px;
 		left: -100px;
 	}
 	.aboutUs__ellips_medium {
 		max-width: 110px;
 		height: 110px;
-		top: 425px;
+		top: 516px;
 		left: 0px;
 	}
 	.aboutUs__ellips_small {
 		max-width: 110px;
 		height: 110px;
-		top: 580px;
-		left: 290px;
+		top: 685px;
+		left: 280px;
 	}
 	.aboutUs__ellips_big_cells {
 		max-width: 284px;
@@ -243,13 +324,14 @@
 	.aboutUs__ellips_small_cells {
 		max-width: 188px;
 		height: 188px;
-		top: 890px;
+		top: 210px;
 		left: -100px;
 	}
 	.aboutUs__video-container {
 		max-width: 344px;
 		height: 205px;
 		border-radius: 64px 0px;
+
 		margin: 0 auto;
 		order: 1;
 		margin-bottom: 50px;
@@ -298,84 +380,5 @@
 	.aboutUs__button {
 		padding: 26px 112px;
 		margin-bottom: 60px;
-	}
-}
-@media screen and (max-width: 1699px) {
-	.aboutUs__cell-title {
-		padding-left: 30px;
-	}
-	.aboutUs__video-container {
-		max-width: 600px;
-		height: 370px;
-	}
-	.aboutUs__video {
-		width: 510px;
-		height: 285px;
-	}
-	.aboutUs__ellips_small {
-		left: 615px;
-		top: 230px;
-	}
-	.aboutUs__title {
-		font-size: 42px;
-		line-height: 90%;
-	}
-	.aboutUs__description {
-		font-size: 15px;
-	}
-	.aboutUs__info {
-		margin-left: 80px;
-		padding-bottom: 180px;
-		max-width: 500px;
-	}
-	.aboutUs__cell-iconbg {
-		width: 120px;
-		height: 80px;
-	}
-}
-@media screen and (max-width: 1440px) {
-	.aboutUs__cells {
-		margin: 0 auto;
-		width: 100%;
-		max-width: 1200px;
-		order: 2;
-		flex-direction: column;
-		padding: 0;
-		justify-content: center;
-		align-items: center;
-	}
-	.aboutUs__cell-title {
-		padding-left: 0;
-	}
-	.aboutUs__cell {
-		max-width: 520px;
-		margin: 0 0 50px 0;
-	}
-
-	.aboutUs__ellips_big_cells {
-		max-width: 284px;
-		height: 284px;
-		top: 250px;
-		left: 700px;
-	}
-	.aboutUs__ellips_small_cells {
-		max-width: 188px;
-		height: 188px;
-		top: 890px;
-		left: 250px;
-	}
-	.aboutUs__video-container {
-		margin-left: 100px;
-	}
-	.aboutUs__info {
-		margin-left: 40px;
-		padding-bottom: 180px;
-		max-width: 500px;
-	}
-	.aboutUs {
-		width: 100%;
-	}
-	.aboutUs__ellips_small {
-		left: 570px;
 	}
 }

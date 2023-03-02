@@ -137,6 +137,7 @@
 	text-transform: uppercase;
 	color: #5a5a5a;
 	margin: 40px 0 15px 43px;
+	max-width: 450px;
 }
 
 .new-medium__description {
@@ -167,11 +168,13 @@
 }
 
 .new-medium__photo {
-	background-image: url('../../images/medium.png');
+	background-image: url('../../images/innopolis-new.jpg');
 	background-repeat: no-repeat;
 	width: 296px;
 	height: 299px;
 	margin: 43px 41px 43px 0;
+	background-size: contain;
+	border-radius: 48px;
 }
 
 .new-medium_second {
@@ -201,7 +204,7 @@
 	line-height: 143%;
 	color: #5a5a5a;
 	margin: 0;
-	padding: 0 6px 41px 42px;
+	padding: 30px 6px 47px 42px;
 	width: 100%;
 	max-width: 407px;
 }
@@ -226,6 +229,7 @@
 	width: 296px;
 	height: 299px;
 	margin: 50px 28px 0 0;
+	background-size: contain;
 }
 
 .news__title {
@@ -254,7 +258,7 @@
 	border-radius: 48px;
 	display: none;
 	max-width: 340px;
-	max-height: 470px;
+	max-height: auto;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -272,7 +276,11 @@
 	align-items: center;
 	/* 340 469 */
 }
-
+.new-big__photo-inop {
+	background-image: url('../../images/innopolis-new.jpg');
+	padding-bottom: 0px;
+	background-position: -5px;
+}
 @media screen and (max-width: 767px) {
 	.news {
 		max-width: 500px;

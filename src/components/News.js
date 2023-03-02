@@ -44,10 +44,12 @@ function News() {
 				</div>
 				<div className='new-medium'>
 					<div className='new-medium__info'>
-						<h4 className='new-medium__title'>новости</h4>
+						<h4 className='new-medium__title'>
+							111 российских вузов расскажут о работе своих «цифрровых кафедр»
+						</h4>
 						<p className='new-medium__description'>
-							Под руководством проектные группы студентов разрабатывают проект
-							“ИНТЕЛЛЕКТУАЛЬНАЯ СИСТЕМА ПОИСКА ДОСТОПРИМЕЧАТЕЛЬНОСТЕЙ КРЫМА”.
+							Подключиться к онлайн-трансляции «Марафона цифровых кафедр» на
+							сайте проекта может любой желающий
 						</p>
 						<button
 							onClick={() => alert('В разработке')}
@@ -77,10 +79,12 @@ function News() {
 				</div>
 				<div className='new-big2'>
 					<div className='new-big__info'>
-						<h4 className='new-big__title'>новости</h4>
+						<h4 className='new-big__title'>
+							111 российских вузов расскажут о работе своих «цифрровых кафедр»
+						</h4>
 						<p className='new-big__description'>
-							Под руководством проектные группы студентов разрабатывают проект
-							“ИНТЕЛЛЕКТУАЛЬНАЯ СИСТЕМА ПОИСКА ДОСТОПРИМЕЧАТЕЛЬНОСТЕЙ КРЫМА”.
+							Подключиться к онлайн-трансляции «Марафона цифровых кафедр» на
+							сайте проекта может любой желающий
 						</p>
 						<button
 							onClick={() => alert('В разработке')}
@@ -89,7 +93,7 @@ function News() {
 							Подробнее
 						</button>
 					</div>
-					<div className='new-big__photo'></div>
+					<div className='new-big__photo new-big__photo-inop'></div>
 				</div>
 				<div className={`new-big3 ${openNew && 'new-medium_second_open'}`}>
 					<div className='new-big__info'>
