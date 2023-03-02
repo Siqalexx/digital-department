@@ -44,8 +44,10 @@ function Questions() {
 		<section className='questions'>
 			<h3 className='questions__title'>вопросы</h3>
 			<div className='questions__list'>
-				{questionList.map(q => (
-					<QuestionItem heading={q.heading}>{q.content}</QuestionItem>
+				{questionList.map((q, i) => (
+					<QuestionItem key={i} heading={q.heading}>
+						{q.content}
+					</QuestionItem>
 				))}
 			</div>
 		</section>

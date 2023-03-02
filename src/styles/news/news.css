@@ -3,7 +3,7 @@
 	max-width: 1920px;
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 276px;
+	margin-top: 200px;
 }
 .news__block {
 	display: flex;
@@ -276,7 +276,7 @@
 @media screen and (max-width: 767px) {
 	.news {
 		max-width: 500px;
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 	.news__block {
 		flex-direction: column;
@@ -355,6 +355,6 @@
 @media screen and (max-width: 500px) {
 	.news {
 		max-width: 340px;
-		margin-top: 176px;
+		margin-top: 50px;
 	}
 }
