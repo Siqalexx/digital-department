@@ -1,0 +1,13 @@
+.button {
+	background: none;
+	border: none;
+	padding: 34.5px 90px;
+	background: #5e4dcd;
+	border-radius: 15px;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #ffffff;
+}

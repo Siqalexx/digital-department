@@ -1,0 +1,68 @@
+.projectList {
+	margin: 250px 0 0 0;
+	width: 100%;
+	max-width: 1920px;
+}
+.project {
+	margin-bottom: 280px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.project__info {
+	max-width: 612px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.left {
+	align-items: flex-end;
+	order: -1;
+}
+.left > .project__description {
+	text-align: end;
+}
+.project__title {
+	font-family: 'NeueMachina', Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 143%;
+	text-transform: uppercase;
+	color: #5e4dcd;
+	margin: 0;
+}
+.project__description {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 143%;
+	color: #5a5a5a;
+	margin: 15px 0 40px 0;
+}
+
+.project__content {
+	background-image: url('../../images/project-comp.svg');
+	width: 755px;
+	height: 443px;
+	position: relative;
+}
+.phone {
+	background-image: url('../../images/project-phone.svg');
+	width: 350px;
+	height: 525px;
+}
+.bigCircle {
+	position: absolute;
+	top: 60px;
+	left: -200px;
+}
+.smallCircle {
+	position: absolute;
+	width: 553px;
+	height: 553px;
+	top: -90px;
+	left: 200px;
+}

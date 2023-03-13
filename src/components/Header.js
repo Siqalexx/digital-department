@@ -1,5 +1,6 @@
 import logo from '../images/LOGO.svg';
 import burger from '../images/burger.svg';
+import { NavLink } from 'react-router-dom';
 function Header() {
 	return (
 		<header className='header'>
@@ -7,36 +8,29 @@ function Header() {
 			<nav className='header__navigation'>
 				<ul className='header_links'>
 					<li className='header_link'>
-						<a className='header_text' href='#aboutUs'>
+						<NavLink className='header_text' to='/'>
+							главная
+						</NavLink>
+					</li>
+					<li className='header_link'>
+						<NavLink className='header_text' to='/about'>
 							о нас
-						</a>
+						</NavLink>
 					</li>
 					<li className='header_link'>
-						<a
-							onClick={() => alert('В разработке')}
-							className='header_text'
-							href='#'
-						>
+						<NavLink className='header_text' to='/programs'>
 							Программы
-						</a>
+						</NavLink>
 					</li>
 					<li className='header_link'>
-						<a
-							onClick={() => alert('В разработке')}
-							className='header_text'
-							href='#'
-						>
+						<NavLink className='header_text' to='/projects'>
 							проекты
-						</a>
+						</NavLink>
 					</li>
 					<li className='header_link'>
-						<a
-							onClick={() => alert('В разработке')}
-							className='header_text'
-							href='#'
-						>
+						<NavLink className='header_text' to='/contacts'>
 							контакты
-						</a>
+						</NavLink>
 					</li>
 				</ul>
 			</nav>

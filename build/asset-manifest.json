@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ebd8a69.css",
-    "main.js": "/static/js/main.14dd2c29.js",
+    "main.css": "/static/css/main.94da7a4f.css",
+    "main.js": "/static/js/main.c0554d01.js",
     "static/media/video.mp4": "/static/media/video.b1d485ac1746bf9ec506.mp4",
     "static/media/main.png": "/static/media/main.06c0e31844304d9bf15b.png",
     "static/media/questions.png": "/static/media/questions.b69c0f54532d6f7b910d.png",
@@ -10,6 +10,7 @@
     "static/media/new-big.png": "/static/media/new-big.623aeacee71eddfd5389.png",
     "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
     "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/project-comp.svg": "/static/media/project-comp.b8cfa23ef5c9170fda26.svg",
     "static/media/preview-mobile.png": "/static/media/preview-mobile.8db9dd5725ca2fc11364.png",
     "static/media/medium-second.png": "/static/media/medium-second.cad95b9c718f20ef98fb.png",
     "static/media/innopolis-new.jpg": "/static/media/innopolis-new.6d07e90cf4ad5466f109.jpg",
@@ -18,17 +19,18 @@
     "static/media/NeueMachina-Light.otf": "/static/media/NeueMachina-Light.e1fb3b2574d18010b9ff.otf",
     "static/media/LOGO.svg": "/static/media/LOGO.f816a9149ccf0ac7d6893e0ca736aac1.svg",
     "static/media/logo-footer.svg": "/static/media/logo-footer.bbad624489d110bdaa9c6982a8d8a6eb.svg",
-    "static/media/main-figure.png": "/static/media/main-figure.8d7f8c97bd1240ecd444.png",
+    "static/media/project-phone.svg": "/static/media/project-phone.49a8591ab9062989c76b.svg",
     "static/media/aboutUs-like.svg": "/static/media/aboutUs-like.cde6cf8feb09e5313f9e.svg",
     "static/media/aboutUs-eye.svg": "/static/media/aboutUs-eye.b293e7226cece282fe2d.svg",
     "static/media/aboutUs-arrow.svg": "/static/media/aboutUs-arrow.075a1049cb463184ae0a.svg",
     "index.html": "/index.html",
     "static/media/burger.svg": "/static/media/burger.aed7d1de1e01f0c848b8ca88096a10c0.svg",
-    "main.6ebd8a69.css.map": "/static/css/main.6ebd8a69.css.map",
-    "main.14dd2c29.js.map": "/static/js/main.14dd2c29.js.map"
+    "static/media/main-figure.svg": "/static/media/main-figure.1166334b12e4e8d57fed.svg",
+    "main.94da7a4f.css.map": "/static/css/main.94da7a4f.css.map",
+    "main.c0554d01.js.map": "/static/js/main.c0554d01.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ebd8a69.css",
-    "static/js/main.14dd2c29.js"
+    "static/css/main.94da7a4f.css",
+    "static/js/main.c0554d01.js"
   ]
 }

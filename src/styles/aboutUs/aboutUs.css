@@ -227,6 +227,14 @@
 		width: 120px;
 		height: 80px;
 	}
+	.aboutUs__ellips_small_cells {
+		top: -70px;
+		left: -175px;
+	}
+	.aboutUs__ellips_big_cells {
+		top: 100px;
+		left: 80px;
+	}
 }
 
 @media screen and (max-width: 1440px) {
@@ -247,18 +255,20 @@
 		max-width: 520px;
 		margin: 0 0 50px 0;
 	}
-
+	.aboutUs__ellips_small {
+		left: 570px;
+	}
 	.aboutUs__ellips_big_cells {
 		max-width: 284px;
 		height: 284px;
 		top: 250px;
-		left: 700px;
+		left: 350px;
 	}
 	.aboutUs__ellips_small_cells {
 		max-width: 188px;
 		height: 188px;
-		top: 890px;
-		left: 250px;
+		top: 270px;
+		left: -70px;
 	}
 	.aboutUs__video-container {
 		margin-left: 100px;
@@ -271,11 +281,177 @@
 	.aboutUs {
 		width: 100%;
 	}
-	.aboutUs__ellips_small {
-		left: 570px;
+	.aboutUs__cell {
+		height: 405px;
 	}
 }
 
+@media screen and (max-width: 1341px) {
+	.aboutUs {
+		justify-content: center;
+	}
+
+	.aboutUs__video-container {
+		max-width: 100%;
+		width: 837px;
+		height: 528px;
+	}
+	.aboutUs__video {
+		width: 741px;
+		height: 410px;
+	}
+	.aboutUs__title {
+		position: relative;
+		top: -600px;
+		left: 400px;
+		font-size: 48px;
+	}
+	.aboutUs__description {
+		font-size: 16px;
+	}
+	.aboutUs__ellips_big {
+		width: 567px;
+		height: 567px;
+	}
+	.aboutUs__ellips_medium {
+		max-width: 399px;
+		height: 399px;
+	}
+	.aboutUs__ellips_small {
+		max-width: 290px;
+		height: 290px;
+		left: 70%;
+		top: 300px;
+	}
+	.aboutUs__info {
+		padding: 0;
+	}
+	.aboutUs__ellips_big_cells {
+		max-width: 284px;
+		height: 284px;
+		top: 250px;
+		left: 350px;
+	}
+	.aboutUs__ellips_small_cells {
+		max-width: 188px;
+		height: 188px;
+		top: 270px;
+		left: -70px;
+	}
+}
+@media screen and (max-width: 1180px) {
+	.aboutUs__ellips_big {
+		width: 500px;
+		height: 500px;
+	}
+	.aboutUs__ellips_medium {
+		max-width: 340px;
+		height: 340px;
+	}
+	.aboutUs__ellips_small {
+		max-width: 240px;
+		height: 240px;
+		left: 75%;
+		top: 350px;
+	}
+	.aboutUs__title {
+		position: relative;
+		top: -600px;
+		left: 400px;
+		font-size: 48px;
+	}
+	.aboutUs__ellips_big_cells {
+		max-width: 284px;
+		height: 284px;
+		top: 250px;
+		left: 350px;
+	}
+	.aboutUs__ellips_small_cells {
+		max-width: 188px;
+		height: 188px;
+		top: 270px;
+		left: -70px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.aboutUs__video-container {
+		max-width: 100%;
+		width: 637px;
+		height: 377px;
+		margin: 0;
+	}
+	.aboutUs__video {
+		width: 541px;
+		height: 293px;
+	}
+	.aboutUs__ellips_big {
+		width: 400px;
+		height: 400px;
+		top: -10em;
+	}
+	.aboutUs__ellips_medium {
+		max-width: 280px;
+		height: 280px;
+		top: -5em;
+		left: 8em;
+	}
+	.aboutUs__ellips_small {
+		max-width: 190px;
+		height: 190px;
+		left: 68%;
+		top: 240px;
+	}
+	.aboutUs__title {
+		top: -470px;
+		left: 340px;
+	}
+	.aboutUs__ellips_big_cells {
+		max-width: 284px;
+		height: 284px;
+		top: 250px;
+		left: 350px;
+	}
+	.aboutUs__ellips_small_cells {
+		max-width: 188px;
+		height: 188px;
+		top: 270px;
+		left: -70px;
+	}
+}
+@media screen and (max-width: 830px) {
+	.aboutUs__video-container {
+		margin: 0 0 0 0;
+	}
+	.aboutUs__ellips_big {
+		width: 355px;
+		height: 355px;
+		top: -10em;
+	}
+	.aboutUs__ellips_medium {
+		max-width: 227px;
+		height: 227px;
+		top: -5em;
+		left: 9em;
+	}
+	.aboutUs__ellips_small {
+		max-width: 142px;
+		height: 142px;
+		left: 73%;
+		top: 270px;
+	}
+	.aboutUs__ellips_big_cells {
+		max-width: 284px;
+		height: 284px;
+		top: 250px;
+		left: 350px;
+	}
+	.aboutUs__ellips_small_cells {
+		max-width: 188px;
+		height: 188px;
+		top: 270px;
+		left: -70px;
+	}
+}
 @media screen and (max-width: 767px) {
 	.aboutUs {
 		margin-top: 10px;
@@ -290,6 +466,7 @@
 		padding-bottom: 51px;
 	}
 	.aboutUs__title {
+		position: static;
 		font-size: 20px;
 	}
 	.aboutUs__description {
@@ -300,7 +477,7 @@
 	.aboutUs__ellips_big {
 		max-width: 163px;
 		height: 163px;
-		top: 522px;
+		top: 508px;
 		left: -100px;
 	}
 	.aboutUs__ellips_medium {
@@ -324,8 +501,8 @@
 	.aboutUs__ellips_small_cells {
 		max-width: 188px;
 		height: 188px;
-		top: 210px;
-		left: -100px;
+		top: 270px;
+		left: -80px;
 	}
 	.aboutUs__video-container {
 		max-width: 344px;

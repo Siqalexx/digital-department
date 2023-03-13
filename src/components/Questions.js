@@ -23,7 +23,7 @@ function QuestionItem({ heading, children }) {
 function Questions() {
 	const questionList = [
 		{
-			heading: 'Как записаться?',
+			heading: 'Как записаться? ',
 			content:
 				'Запись на программы цифровой кафедры ведется через ЭОС Университета (личный кабинет) и студенческий офис.',
 		},

@@ -44,12 +44,11 @@ function News() {
 				</div>
 				<div className='new-medium'>
 					<div className='new-medium__info'>
-						<h4 className='new-medium__title'>
-							111 российских вузов расскажут о работе своих «цифрровых кафедр»
-						</h4>
+						<h4 className='new-medium__title'>новости</h4>
 						<p className='new-medium__description'>
-							Подключиться к онлайн-трансляции «Марафона цифровых кафедр» на
-							сайте проекта может любой желающий
+							Амбициозный проект “Гео-карта Крыма” реализуется в рамках
+							программы “Web-разработка”. В проекте принимают участие студенты
+							многих институтов.
 						</p>
 						<button
 							onClick={() => alert('В разработке')}
@@ -62,11 +61,12 @@ function News() {
 				</div>
 				<div className={`new-medium_second `}>
 					<div className='new-medium__info_second'>
-						<h4 className='new-medium__title_second'>новости</h4>
+						<h4 className='new-medium__title_second'>
+							111 российских вузов расскажут о работе «цифрровых кафедр»
+						</h4>
 						<p className='new-medium__description_second'>
-							Амбициозный проект “Гео-карта Крыма” реализуется в рамках
-							программы “Web-разработка”. В проекте принимают участие студенты
-							многих институтов.
+							Подключиться к онлайн-трансляции «Марафона цифровых кафедр» на
+							сайте проекта может любой желающий
 						</p>
 						<button
 							onClick={() => alert('В разработке')}

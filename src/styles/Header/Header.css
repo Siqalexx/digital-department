@@ -49,10 +49,22 @@
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif, 'Courier New', Courier, monospace;
 }
+.active {
+	text-decoration: underline;
+}
 .header_text:hover {
 	opacity: 0.6;
 }
-
+@media screen and (max-width: 1000px) {
+	.header_text {
+		margin-right: 40px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.header_text {
+		margin-right: 30px;
+	}
+}
 @media screen and (max-width: 767px) {
 	.header {
 		max-width: 767px;
