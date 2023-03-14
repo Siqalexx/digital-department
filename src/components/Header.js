@@ -12,27 +12,57 @@ function Header() {
 			<nav className={`header__navigation ${openBurger ? 'open' : ''}`}>
 				<ul className='header_links'>
 					<li className='header_link'>
-						<NavLink className='header_text' to='/'>
+						<NavLink
+							onClick={() => {
+								setOpenBurger(false);
+							}}
+							className='header_text'
+							to='/'
+						>
 							главная
 						</NavLink>
 					</li>
 					<li className='header_link'>
-						<NavLink className='header_text' to='/about'>
+						<NavLink
+							onClick={() => {
+								setOpenBurger(false);
+							}}
+							className='header_text'
+							to='/about'
+						>
 							о нас
 						</NavLink>
 					</li>
 					<li className='header_link'>
-						<NavLink className='header_text' to='/programs'>
+						<NavLink
+							onClick={() => {
+								setOpenBurger(false);
+							}}
+							className='header_text'
+							to='/programs'
+						>
 							Программы
 						</NavLink>
 					</li>
 					<li className='header_link'>
-						<NavLink className='header_text' to='/projects'>
+						<NavLink
+							onClick={() => {
+								setOpenBurger(false);
+							}}
+							className='header_text'
+							to='/projects'
+						>
 							проекты
 						</NavLink>
 					</li>
 					<li className='header_link'>
-						<NavLink className='header_text' to='/contacts'>
+						<NavLink
+							onClick={() => {
+								setOpenBurger(false);
+							}}
+							className='header_text'
+							to='/contacts'
+						>
 							контакты
 						</NavLink>
 					</li>
@@ -40,10 +70,9 @@ function Header() {
 			</nav>
 			<button
 				onClick={() => {
-					console.log(11);
 					setOpenBurger(!openBurger);
 				}}
-				className={`header__burger ${openBurger ? 'open' : ''}`}
+				className={`header__burger`}
 			>
 				<span></span>
 				<span></span>
