@@ -19,6 +19,32 @@
 	width: 155px;
 	object-fit: cover;
 }
+
+.header__burger {
+	display: none;
+	border: none;
+	background: none;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	margin-right: 35px;
+}
+
+.header__burger span {
+	position: absolute;
+	width: 32px;
+	height: 4px;
+	background-color: black;
+	left: 3px;
+	transition: all 0.5s;
+}
+.header__burger span:nth-child(1) {
+	transform: translateY(-12px);
+}
+
+.header__burger span:nth-child(3) {
+	transform: translateY(12px);
+}
 .header__navigation {
 	display: flex;
 	justify-content: center;
@@ -34,10 +60,7 @@
 
 .header_link {
 }
-.header__burger {
-	display: none;
-	padding-right: 50px;
-}
+
 .header_text {
 	text-decoration: none;
 	transition: all 1s ease;
@@ -55,16 +78,52 @@
 .header_text:hover {
 	opacity: 0.6;
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1140px) {
+	.header__burger {
+		display: block;
+		z-index: 11;
+	}
+	.header__navigation {
+		z-index: 10;
+		position: absolute;
+		max-width: 500px;
+		padding: 100px 80px 80px 90px;
+		border-radius: 0 0 0 48px;
+		right: 0;
+		top: 0;
+		background-color: #5e4dcd;
+		transition: all 0.5s;
+		opacity: 0;
+		visibility: hidden;
+		box-sizing: border-box;
+	}
+	.header .header__navigation.open + .header__burger span:nth-child(1) {
+		transform: translateY(0px) rotate(-45deg);
+	}
+	.header .header__navigation.open + .header__burger span:nth-child(2) {
+		opacity: 0;
+	}
+	.header .header__navigation.open + .header__burger span:nth-child(3) {
+		transform: translateY(0px) rotate(45deg);
+	}
+
+	.header_links {
+		display: block;
+	}
+	.header_link {
+		padding-bottom: 15px;
+	}
 	.header_text {
-		margin-right: 40px;
+		color: whitesmoke;
+		font-size: 34px;
+	}
+	.open {
+		visibility: visible;
+		opacity: 1;
 	}
 }
-@media screen and (max-width: 800px) {
-	.header_text {
-		margin-right: 30px;
-	}
-}
+
 @media screen and (max-width: 767px) {
 	.header {
 		max-width: 767px;
@@ -74,10 +133,10 @@
 		height: 47px;
 		width: 113px;
 	}
-	.header_links {
+	.header__navigation {
+		max-width: 100%;
+	}
+	/* .header_links {
 		display: none;
-	}
-	.header__burger {
-		display: block;
-	}
+	} */
 }

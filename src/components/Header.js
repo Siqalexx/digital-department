@@ -1,11 +1,15 @@
 import logo from '../images/LOGO.svg';
 import burger from '../images/burger.svg';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
+
 function Header() {
+	const [openBurger, setOpenBurger] = useState(false);
 	return (
 		<header className='header'>
 			<img src={logo} alt='Логотип' className='header__logo'></img>
-			<nav className='header__navigation'>
+
+			<nav className={`header__navigation ${openBurger ? 'open' : ''}`}>
 				<ul className='header_links'>
 					<li className='header_link'>
 						<NavLink className='header_text' to='/'>
@@ -34,7 +38,18 @@ function Header() {
 					</li>
 				</ul>
 			</nav>
-			<img src={burger} alt='Меню' className='header__burger'></img>
+			<button
+				onClick={() => {
+					console.log(11);
+					setOpenBurger(!openBurger);
+				}}
+				className={`header__burger ${openBurger ? 'open' : ''}`}
+			>
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			{/* <img src={burger} alt='Меню' className='header__burgerr'></img> */}
 		</header>
 	);
 }
