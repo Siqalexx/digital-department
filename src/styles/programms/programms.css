@@ -1,0 +1,184 @@
+.programms {
+	width: 100%;
+	max-width: 1920px;
+}
+
+.programms__idea {
+	width: 100%;
+	max-width: 1920px;
+	box-sizing: border-box;
+	margin: 150px 0 0 110px;
+}
+
+.programms__idea-title {
+	font-family: 'NeueMachina';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 143%;
+	/* identical to box height, or 69px */
+	text-transform: uppercase;
+	color: #5e4dcd;
+}
+
+.programms__idea-description {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 143%;
+	/* or 29px */
+
+	text-transform: uppercase;
+	color: #ffffff;
+	max-width: 930px;
+}
+
+.programms__idea-container {
+	background: #5e4dcd;
+	border-radius: 48px;
+	width: 100%;
+	height: 661px;
+	max-width: 1637px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.programms__idea-img {
+	width: 528px;
+	height: 528px;
+	margin-left: 62px;
+}
+
+.person-cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 112px;
+	row-gap: 98px;
+	justify-content: center;
+	align-items: center;
+}
+
+.person-card {
+	position: relative;
+	width: 100%;
+	max-width: 630px;
+	height: 300px;
+	background: #ffffff;
+	box-shadow: 0px 12px 27px rgba(0, 0, 0, 0.09);
+	border-radius: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-self: center;
+}
+
+.person-card__info {
+	max-width: 370px;
+	margin-right: 35px;
+}
+
+.person-card__photo {
+	background-image: url('../../images/person-card.png');
+	width: 240px;
+	height: 240px;
+	position: absolute;
+	top: -50px;
+	left: -40px;
+}
+
+.person-card__title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 143%;
+	/* or 34px */
+
+	text-align: right;
+	text-transform: uppercase;
+
+	color: #000000;
+}
+.person-card__subtitle {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 143%;
+	/* or 34px */
+
+	text-align: right;
+	text-transform: uppercase;
+
+	color: #000000;
+}
+
+.team__title {
+	text-align: center;
+	margin: 0 0 160px;
+}
+
+.programms__team {
+	margin: 160px 0;
+}
+
+.person-card_left {
+	justify-content: start;
+}
+
+.person-card_left > .person-card__info {
+	margin: 0 0 0 35px;
+}
+
+.person-card_left > .person-card__info > .person-card__title {
+	text-align: start;
+}
+.person-card_left > .person-card__info > .person-card__subtitle {
+	text-align: start;
+}
+
+.person-card_left > .person-card__photo {
+	left: 440px;
+}
+
+.programms__partners {
+	margin: 0 0 180px 0;
+}
+
+.partners__team {
+	text-align: center;
+	margin: 0 0 80px 0;
+}
+
+.partners__image {
+	background-image: url('../../images/Captura-de-pantalla-2019-11-04-a-las-12\ 5.png');
+	width: 507px;
+	height: 422px;
+	position: relative;
+}
+
+.partners__block {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.partners__info {
+	background: #5e4dcd;
+	border-radius: 15px;
+	width: 100%;
+	max-width: 353px;
+	font-family: 'NeueMachina';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 29px;
+	/* identical to box height */
+	color: #ffffff;
+	text-align: center;
+	padding: 23px 0;
+	position: absolute;
+	top: 380px;
+	left: 80px;
+}

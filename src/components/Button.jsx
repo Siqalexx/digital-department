@@ -1,5 +1,12 @@
-function Button({ text }) {
-	return <button className='button'>{text}</button>;
+function Button({ onClickl, text, ...props }) {
+	return (
+		<button
+			onClick={onClickl}
+			className={`button ${props.className ? props.className : ''} `}
+		>
+			{text}
+		</button>
+	);
 }
 
 export default Button;

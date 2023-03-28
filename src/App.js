@@ -2,6 +2,7 @@ import Main from './components/Main';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Projects from './components/Projects';
+import Programms from './components/Programms';
 
 function App() {
 	return (
@@ -19,16 +20,7 @@ function App() {
 						</h1>
 					}
 				/>
-				<Route
-					path='/programs'
-					element={
-						<h1
-							style={{ margin: '300px', fontSize: '100px', color: '#5e4dcd' }}
-						>
-							Страница "Программы" в разработке
-						</h1>
-					}
-				/>
+				{/* <Route path='/programs' element={<Programms></Programms>} /> */}
 				<Route path='/projects' element={<Projects />} />
 				<Route
 					path='/contacts'
@@ -40,6 +32,8 @@ function App() {
 						</h1>
 					}
 				/>
+				<Route path='/projects/:proj' element={<Programms />}></Route>
+
 				<Route
 					path='*'
 					element={

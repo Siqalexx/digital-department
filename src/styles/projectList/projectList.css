@@ -1,8 +1,9 @@
 .projectList {
-	margin: 250px 0 0 0;
+	margin: 150px 0 0 0;
 	width: 100%;
 	max-width: 1920px;
 }
+
 .project {
 	margin-bottom: 280px;
 	width: 100%;
@@ -32,6 +33,7 @@
 	text-transform: uppercase;
 	color: #5e4dcd;
 	margin: 0;
+	text-align: center;
 }
 .project__description {
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -65,4 +67,134 @@
 	height: 553px;
 	top: -90px;
 	left: 200px;
+}
+.project__button-upper {
+	align-self: center;
+}
+.project__button-under {
+	display: none;
+}
+
+.projectList__title {
+	font-family: 'NeueMachina';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 143%;
+	text-transform: uppercase;
+	color: #5e4dcd;
+	margin: 0 0 100px 70px;
+}
+@media screen and (max-width: 1500px) {
+	.project {
+		margin-bottom: 110px;
+		box-sizing: border-box;
+		padding: 0 70px;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.project__content {
+		order: 2;
+		align-self: center;
+	}
+
+	.project__info {
+		order: 1;
+	}
+	.project__button-upper {
+		display: none;
+	}
+	.project__button-under {
+		display: block;
+		order: 3;
+		padding: 32px 190px;
+		margin-top: 210px;
+		align-self: flex-end;
+	}
+
+	.project__description {
+		margin-bottom: 70px;
+		font-size: 18px;
+	}
+
+	.project__title {
+		font-size: 56px;
+		align-self: flex-start;
+		text-align: start;
+	}
+
+	.left > .project__description {
+		text-align: start;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.project__description {
+		margin-bottom: 120px;
+		font-size: 14px;
+	}
+	.project__info {
+		align-self: center;
+	}
+	.project__button-under {
+		margin-top: 190px;
+		align-self: center;
+	}
+	.project__title {
+		font-size: 20px;
+	}
+	.project__content {
+		width: 333px;
+		height: 235px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.bigCircle {
+		width: 340px;
+		height: 340px;
+		top: 15px;
+		left: -100px;
+	}
+	.smallCircle {
+		width: 294px;
+		height: 294px;
+		top: -60px;
+		left: 100px;
+	}
+	.phone > .bigCircle {
+		top: -10px;
+		left: 30px;
+		width: 310px;
+		height: 310px;
+	}
+	.phone > .smallCircle {
+		width: 271px;
+		height: 271px;
+		top: -50px;
+		left: -150px;
+	}
+	.phone {
+		width: 186px;
+		height: 280px;
+	}
+	.projectList__title {
+		font-size: 20px;
+		text-align: center;
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 665px) {
+	.project__button-under {
+		padding: 26.5px 112px;
+		align-self: center;
+		margin-top: 165px;
+	}
+	.project {
+		margin-bottom: 73px;
+		padding: 0 32px;
+	}
+	.project__description {
+	}
 }
