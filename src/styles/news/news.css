@@ -58,6 +58,12 @@
 	font-size: 20px;
 	line-height: 24px;
 	margin: 0 0 47px 43px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.new-big__button:hover {
+	opacity: 0.6;
 }
 
 .new-big__photo {
@@ -117,6 +123,12 @@
 	font-size: 20px;
 	line-height: 24px;
 	margin: 0 108px 47px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.new-small__button:hover {
+	opacity: 0.6;
 }
 
 .new-medium {
@@ -165,6 +177,12 @@
 	font-size: 20px;
 	line-height: 24px;
 	margin: 0 0 43px 47px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.new-medium__button:hover {
+	opacity: 0.6;
 }
 
 .new-medium__photo {
@@ -222,6 +240,12 @@
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.new-medium__button_second:hover {
+	opacity: 0.6;
 }
 
 .new-medium__photo_second {

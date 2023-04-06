@@ -1,0 +1,95 @@
+.news-popup__bg {
+	background: rgba(94, 77, 205, 0.5);
+	z-index: 50;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.news-popup {
+	background: #ffffff;
+	border-radius: 48px;
+	width: 100%;
+	max-width: 1525px;
+	display: flex;
+	height: 634px;
+	position: relative;
+	margin: 0 50px;
+}
+
+.news-popup__content {
+	margin: 56px;
+	display: flex;
+}
+
+.news-popup__bg_opened {
+	overflow: hidden;
+}
+
+.news-popup__info {
+	margin-left: 59px;
+	margin-right: 70px;
+}
+
+.news-popup__title {
+	font-family: 'NeueMachina';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 222%;
+	text-transform: uppercase;
+	color: #5a5a5a;
+	margin: 0 0 20px;
+}
+
+.news-popup__image {
+	border-radius: 48px;
+	width: 671px;
+	height: 522px;
+}
+
+.news-popup__description {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 143%;
+	color: #5a5a5a;
+	margin: 0;
+	max-width: 612px;
+}
+
+.news-popup__exit {
+	width: 50px;
+	padding: 0;
+	height: 50px;
+	background: none;
+	border: none;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	transition: all 0.5s ease-in;
+	cursor: pointer;
+}
+
+.news-popup__exit:hover {
+	opacity: 0.5;
+}
+
+.news-popup__exit div {
+	width: 100%;
+	max-width: 40px;
+	height: 4px;
+	background-color: black;
+}
+.news-popup__exit div:nth-child(1) {
+	transform: rotate(50deg);
+}
+.news-popup__exit div:nth-child(2) {
+	transform: translateY(-4px) rotate(-50deg);
+}

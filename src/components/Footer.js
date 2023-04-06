@@ -1,7 +1,7 @@
 import logo from '../images/logo-footer.svg';
 function Footer() {
 	return (
-		<footer className='footer'>
+		<footer id='footer' className='footer'>
 			<img src={logo} alt='Логотип' className='footer__logo'></img>
 			<div className='footer-info'>
 				<h2 className='footer-info__title'>КФУ...</h2>

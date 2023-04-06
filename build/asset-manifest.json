@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cf0ecc3.css",
-    "main.js": "/static/js/main.ba9c0e10.js",
+    "main.css": "/static/css/main.8f6461d7.css",
+    "main.js": "/static/js/main.939202ac.js",
     "static/media/video.mp4": "/static/media/video.b1d485ac1746bf9ec506.mp4",
     "static/media/3 6.png": "/static/media/3 6.bc35a949f070ddbcb9be.png",
     "static/media/main.png": "/static/media/main.06c0e31844304d9bf15b.png",
     "static/media/programms-preview.png": "/static/media/programms-preview.5b4efb492a28d5f18137.png",
+    "static/media/proba.svg": "/static/media/proba.ddf29da772c9f1d557b7.svg",
     "static/media/questions.png": "/static/media/questions.b69c0f54532d6f7b910d.png",
     "static/media/video_photo.png": "/static/media/video_photo.b49333de4df96c7cc877.png",
     "static/media/Captura-de-pantalla-2019-11-04-a-las-12 5.png": "/static/media/Captura-de-pantalla-2019-11-04-a-las-12 5.95a7411a937b5a3bfe96.png",
@@ -17,6 +18,7 @@
     "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
     "static/media/project-comp.svg": "/static/media/project-comp.b8cfa23ef5c9170fda26.svg",
     "static/media/preview-mobile.png": "/static/media/preview-mobile.8db9dd5725ca2fc11364.png",
+    "static/media/medium.png": "/static/media/medium.19fc3da6231f5464a10c.png",
     "static/media/Img.svg": "/static/media/Img.5e78a34433d8aaf62d98.svg",
     "static/media/medium-second.png": "/static/media/medium-second.cad95b9c718f20ef98fb.png",
     "static/media/innopolis-new.jpg": "/static/media/innopolis-new.6d07e90cf4ad5466f109.jpg",
@@ -26,6 +28,7 @@
     "static/media/person-card.png": "/static/media/person-card.b68b152a7c2c86181274.png",
     "static/media/LOGO.svg": "/static/media/LOGO.f816a9149ccf0ac7d6893e0ca736aac1.svg",
     "static/media/logo-footer.svg": "/static/media/logo-footer.bbad624489d110bdaa9c6982a8d8a6eb.svg",
+    "static/media/main-figure.png": "/static/media/main-figure.8d7f8c97bd1240ecd444.png",
     "static/media/project-phone.svg": "/static/media/project-phone.49a8591ab9062989c76b.svg",
     "static/media/aboutUs-like.svg": "/static/media/aboutUs-like.cde6cf8feb09e5313f9e.svg",
     "static/media/aboutUs-eye.svg": "/static/media/aboutUs-eye.b293e7226cece282fe2d.svg",
@@ -33,11 +36,12 @@
     "index.html": "/index.html",
     "static/media/burger.svg": "/static/media/burger.aed7d1de1e01f0c848b8ca88096a10c0.svg",
     "static/media/main-figure.svg": "/static/media/main-figure.1166334b12e4e8d57fed.svg",
-    "main.0cf0ecc3.css.map": "/static/css/main.0cf0ecc3.css.map",
-    "main.ba9c0e10.js.map": "/static/js/main.ba9c0e10.js.map"
+    "static/media/Close.svg": "/static/media/Close.2ceb783afbab75916ddc.svg",
+    "main.8f6461d7.css.map": "/static/css/main.8f6461d7.css.map",
+    "main.939202ac.js.map": "/static/js/main.939202ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cf0ecc3.css",
-    "static/js/main.ba9c0e10.js"
+    "static/css/main.8f6461d7.css",
+    "static/js/main.939202ac.js"
   ]
 }

@@ -10,7 +10,7 @@ function App() {
 			<Route path='/' element={<Layout />}>
 				<Route index element={<Main></Main>} />
 
-				<Route
+				{/* <Route
 					path='/about'
 					element={
 						<h1
@@ -19,10 +19,10 @@ function App() {
 							Страница "О нас" в разработке
 						</h1>
 					}
-				/>
+				/> */}
 				{/* <Route path='/programs' element={<Programms></Programms>} /> */}
 				<Route path='/projects' element={<Projects />} />
-				<Route
+				{/* <Route
 					path='/contacts'
 					element={
 						<h1
@@ -31,7 +31,7 @@ function App() {
 							Страница "Контакты" в разработке
 						</h1>
 					}
-				/>
+				/> */}
 				<Route path='/projects/:proj' element={<Programms />}></Route>
 
 				<Route

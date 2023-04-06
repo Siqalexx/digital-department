@@ -1,7 +1,14 @@
 import { useState } from 'react';
+import NewsPopup from './NewsPopup';
 
 function News() {
 	const [openNew, setOpenNew] = useState(false);
+	const [isNewsPopupOpen, NewsPopupOpen] = useState(false);
+	const [isNewsPopupContent, NewsPopupContent] = useState({
+		title: '',
+		photo: '',
+		description: '',
+	});
 	function clickNew() {
 		setOpenNew(!openNew);
 	}
@@ -18,7 +25,17 @@ function News() {
 							медиакоммуникаций, медиатехнологий и др.
 						</p>
 						<button
-							onClick={() => alert('В разработке')}
+							onClick={() => {
+								NewsPopupContent({
+									title: 'новости',
+									photo: 'new-big.png',
+									description: `Цифровая кафедра приступила к подготовке НОВЫХ программ. В числе
+							перспективных направлений развитие центров компетенций Института
+							медиакоммуникаций, медиатехнологий и др.`,
+								});
+								document.body.classList.toggle('news-popup__bg_opened');
+								NewsPopupOpen(true);
+							}}
 							className='new-big__button'
 						>
 							Подробнее
@@ -34,7 +51,16 @@ function News() {
 							загородных коттеджей.
 						</p>
 						<button
-							onClick={() => alert('В разработке')}
+							onClick={() => {
+								NewsPopupContent({
+									title: 'новости',
+									photo: '',
+									description: `“Проектирование в CAD-системах”. Проработка информационных моделей
+							загородных коттеджей.`,
+								});
+								document.body.classList.toggle('news-popup__bg_opened');
+								NewsPopupOpen(true);
+							}}
 							className='new-small__button'
 						>
 							Подробнее
@@ -51,7 +77,17 @@ function News() {
 							многих институтов.
 						</p>
 						<button
-							onClick={() => alert('В разработке')}
+							onClick={() => {
+								NewsPopupContent({
+									title: 'новости',
+									photo: 'medium-second.png',
+									description: `Амбициозный проект “Гео-карта Крыма” реализуется в рамках
+							программы “Web-разработка”. В проекте принимают участие студенты
+							многих институтов.`,
+								});
+								document.body.classList.toggle('news-popup__bg_opened');
+								NewsPopupOpen(true);
+							}}
 							className='new-medium__button'
 						>
 							Подробнее
@@ -69,7 +105,17 @@ function News() {
 							сайте проекта может любой желающий
 						</p>
 						<button
-							onClick={() => alert('В разработке')}
+							onClick={() => {
+								NewsPopupContent({
+									title:
+										'111 российских вузов расскажут о работе «цифрровых кафедр»',
+									photo: 'innopolis-new.jpg',
+									description: `Подключиться к онлайн-трансляции «Марафона цифровых кафедр» на
+							сайте проекта может любой желающий`,
+								});
+								document.body.classList.toggle('news-popup__bg_opened');
+								NewsPopupOpen(true);
+							}}
 							className='new-medium__button_second'
 						>
 							Подробнее
@@ -116,6 +162,14 @@ function News() {
 			<button className='news__open' onClick={clickNew}>
 				{openNew ? 'Свернуть ' : 'Развернуть '} &#10531;
 			</button>
+			{isNewsPopupOpen && (
+				<NewsPopup
+					title={isNewsPopupContent.title}
+					description={isNewsPopupContent.description}
+					photo={isNewsPopupContent.photo}
+					NewsPopupOpen={NewsPopupOpen}
+				/>
+			)}
 		</section>
 	);
 }
