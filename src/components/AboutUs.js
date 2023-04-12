@@ -40,7 +40,7 @@ function AboutUs() {
 					<div className='aboutUs__cell-iconbg'>
 						<div className='aboutUs__cell-icon'></div>
 					</div>
-					<h3 className='aboutUs__cell-title'>о нас</h3>
+					<h3 className='aboutUs__cell-title'>Программы</h3>
 					<p className='aboutUs__cell-description'>
 						Университет реализует 5 программ профессиональной переподготовки,
 						которые охватывают три направления: Web-разработка (для ИТ и не ИТ
@@ -54,7 +54,7 @@ function AboutUs() {
 					<div className='aboutUs__cell-iconbg'>
 						<div className='aboutUs__cell-icon'></div>
 					</div>
-					<h3 className='aboutUs__cell-title'>о нас</h3>
+					<h3 className='aboutUs__cell-title'>Партнеры</h3>
 					<p className='aboutUs__cell-description'>
 						В реализации программ по цифровой кафедре принимают участие опытные
 						специалисты-практики из сфер деятельности согласно содержанию
@@ -69,7 +69,7 @@ function AboutUs() {
 					<div className='aboutUs__cell-iconbg'>
 						<div className='aboutUs__cell-icon'></div>
 					</div>
-					<h3 className='aboutUs__cell-title'>о нас</h3>
+					<h3 className='aboutUs__cell-title'>Руководитель</h3>
 					<p className='aboutUs__cell-description'>
 						Высокое качество подготовки специалистов по программам цифровой
 						кафедры гарантируется внешней независимой оценкой качества -

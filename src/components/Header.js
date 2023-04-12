@@ -50,6 +50,17 @@ function Header() {
 						</NavLink>
 					</li>
 					<li className='header_link'>
+						<NavLink
+							onClick={() => {
+								setOpenBurger(false);
+							}}
+							className='header_text'
+							to='/partners'
+						>
+							Партнеры
+						</NavLink>
+					</li>
+					<li className='header_link'>
 						<a
 							onClick={() => {
 								setOpenBurger(false);

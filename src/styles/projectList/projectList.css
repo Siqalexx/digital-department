@@ -141,6 +141,14 @@
 		margin-top: 190px;
 		align-self: center;
 	}
+	.marg > .project__title {
+		margin-top: 0;
+	}
+	.project__title {
+		margin-top: 190px;
+		font-size: 20px;
+	}
+
 	.project__title {
 		font-size: 20px;
 	}
@@ -195,6 +203,10 @@
 		margin-bottom: 73px;
 		padding: 0 32px;
 	}
-	.project__description {
+	.marg > .project__title {
+		margin-top: 0;
+	}
+	.project__title {
+		margin-top: 165px;
 	}
 }

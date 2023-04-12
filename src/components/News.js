@@ -54,7 +54,7 @@ function News() {
 							onClick={() => {
 								NewsPopupContent({
 									title: 'новости',
-									photo: '',
+									photo: 'photoPopup.png',
 									description: `“Проектирование в CAD-системах”. Проработка информационных моделей
 							загородных коттеджей.`,
 								});
@@ -133,7 +133,17 @@ function News() {
 							сайте проекта может любой желающий
 						</p>
 						<button
-							onClick={() => alert('В разработке')}
+							onClick={() => {
+								NewsPopupContent({
+									title:
+										'111 российских вузов расскажут о работе «цифрровых кафедр»',
+									photo: 'innopolis-new.jpg',
+									description: `Подключиться к онлайн-трансляции «Марафона цифровых кафедр» на
+							сайте проекта может любой желающий`,
+								});
+								document.body.classList.toggle('news-popup__bg_opened');
+								NewsPopupOpen(true);
+							}}
 							className='new-big__button'
 						>
 							Подробнее
@@ -150,7 +160,17 @@ function News() {
 							многих институтов.
 						</p>
 						<button
-							onClick={() => alert('В разработке')}
+							onClick={() => {
+								NewsPopupContent({
+									title: 'новости',
+									photo: 'medium-second.png',
+									description: `Амбициозный проект “Гео-карта Крыма” реализуется в рамках
+							программы “Web-разработка”. В проекте принимают участие студенты
+							многих институтов.`,
+								});
+								document.body.classList.toggle('news-popup__bg_opened');
+								NewsPopupOpen(true);
+							}}
 							className='new-big__button'
 						>
 							Подробнее

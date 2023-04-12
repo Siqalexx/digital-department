@@ -15,24 +15,24 @@ function Project({ side, title, description, photo }, history) {
 			<div className={`project__info ${side}`}>
 				<h2 className='project__title'>{title}</h2>
 				<p className='project__description'>{description}</p>
-				<Button
+				{/* <Button
 					onClickl={() => toProject(title, history)}
 					className='project__button-upper'
 					text='Подробнее'
-				/>
+				/> */}
 			</div>
-			<Button
+			{/* <Button
 				onClickl={() => toProject(title, history)}
 				className='project__button-under'
 				text='Подробнее'
-			/>
+			/> */}
 		</div>
 	);
 }
 const arr = [
 	{
 		photo: 'computer',
-		side: 'right',
+		side: 'right marg',
 		title: 'Геокарта Крыма: виртуальный гид',
 		description: '',
 	},
