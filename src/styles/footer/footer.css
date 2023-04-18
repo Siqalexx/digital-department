@@ -74,6 +74,12 @@
 	margin: 0;
 }
 
+@media screen and (max-width: 1600px) {
+	.footer-info__title {
+		max-width: 260px;
+	}
+}
+
 @media screen and (max-width: 1400px) {
 	.footer_links {
 		padding-left: 50px;

@@ -4,7 +4,7 @@ function Footer() {
 		<footer id='footer' className='footer'>
 			<img src={logo} alt='Логотип' className='footer__logo'></img>
 			<div className='footer-info'>
-				<h2 className='footer-info__title'>КФУ...</h2>
+				<h2 className='footer-info__title'>КФУ им. В.И. Вернадского</h2>
 				<p className='footer-info__subtitle'>
 					пр. Академика Вернадского, д. 4, каб. 334А
 				</p>
